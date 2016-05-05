@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digiindia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+    
+<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/government"
+        android:label="E-Governance"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyMainAct"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+                <activity
+            android:name="com.example.digiindia.mygpsact"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SIGGGPPPSN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.digiindia.bloodbank"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SIGGGPPPSNBLOODD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+             <activity
+            android:name="com.example.digiindia.Mynotification"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SINOTTTTTNBLOODD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+             <activity
+            android:name="com.example.digiindia.Mynotification2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SINITTNOTTTTTNBLOODD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                
+<activity
+            android:name="com.example.digiindia.allindiapincode"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SIGALLLLLN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+              
+        <activity
+            android:name="com.example.digiindia.hospitals"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HOSPITRAINSIGN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<activity
+            android:name="com.example.digiindia.AdharScan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TAAADARAGRAPINSIGN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.digiindia.Settings_noti"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SETTTTTTNOTI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+
+<activity
+            android:name="com.example.digiindia.MainSecond"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAGRAPINSIGN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.digiindia.mineral_mineral_lease"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRAGRAPINSIGNLEASEEE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.digiindia.Right_to_informtion"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TRIIIRAGRAPINSIGN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+<activity
+            android:name="com.example.digiindia.MyMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MANPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.digiindia.Tax"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MTAXANPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+                 <activity
+            android:name="com.example.digiindia.MyMainAct"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MANEVEPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+        
+    </application>
+
+</manifest>

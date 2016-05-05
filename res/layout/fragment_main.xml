@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.notif.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Active Emergency Notification:"
+        android:textColor="#1565C0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+   <View
+    android:id="@+id/viewsp1"
+    
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_below="@+id/textView1"
+android:layout_marginTop="5dp"
+android:layout_marginBottom="5dp"   
+ android:background="#1565C0"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/viewsp1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner1"
+        android:text="GENERATE" 
+         android:background="@layout/curve_shape"
+       />
+ 
+</RelativeLayout>
